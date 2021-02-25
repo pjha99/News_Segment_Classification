@@ -75,10 +75,6 @@ From the Plot we can say that the data set is not imbalanced dataset.
 - Model 1: Baseline Model created using simple RNN technique
 - Model 2: Created Bidirectional RNN with LSTM and tuned it using keras tuner
 
-### Hyperparameter tuning:
-We will use Keras tuner to tune Model 2<br>
-
- - Method used :Random Search
  
 ### Compare Loss function of Model 1 VS Model 2 by plot
 
@@ -87,7 +83,7 @@ We will use Keras tuner to tune Model 2<br>
 ![](Images/Model1_Loss.PNG)
 
 
-****Plotting Loss for Model 2**
+**Plotting Loss for Model 2**
 
 ![](Images/Model2_Loss.PNG)
 
@@ -95,5 +91,18 @@ Looking at the graphs we can tell that validation loss of Model2 is much better 
 The Loss in Model2 is gradually decreasing with each epoch , while thats not the case with the model1.
 
 
+### Hyperparameter tuning:
+We will use Keras tuner to tune Model 2<br>
+    - Method used :Random Search
+We will performe hyperparameter tuning of the Birectional RNN & LSTM with the help of keras tuner.<br>
+Some of the Parameter that we will tune are: <br>
+    - Embedding Layer
+    - LSTM Layer
+    - Hidden layers
+    -
+### Create a Keras Tuner Random search space
+
+- max trail =3
+- execution per trail =3
 
  
