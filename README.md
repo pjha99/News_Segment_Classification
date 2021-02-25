@@ -1,5 +1,5 @@
 # Project Name :-
-News Segment classification
+#### News Segment classification
 
 ### Project Intro/Objective :-
 News information was not easily and quickly available until the beginning of last decade. But now news is easily accessible via content providers such as online news services.A huge amount of information exists in form of text in various diverse areas whose analysis can be beneficial in several areas.
