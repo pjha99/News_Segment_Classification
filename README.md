@@ -92,7 +92,7 @@ We will use Keras tuner to tune Model 2<br>
 ![](Images/Model2_Loss.PNG)
 
 Looking at the graphs we can tell that validation loss of Model2 is much better as compared to Model1.
-The Loss in Model2 is gradually decreasing with each epoch , while thats not the case wiith model1.
+The Loss in Model2 is gradually decreasing with each epoch , while thats not the case with the model1.
 
 
 
