@@ -107,7 +107,7 @@ Some of the Parameter that we will tune are: <br>
 
 ### Metrics
 We will use precision to determine the model result.
-We can clearly see that model 2 2hich was created using Bidirectional RNN and LSTM outperformed the baseline model in terms of precision score.
+We can clearly see that model 2 which was created using Bidirectional RNN and LSTM outperformed the baseline model in terms of precision score.
 
 | Labels        | Model_1 Precision   | Model_2 Precision |
 | ------------- |---------------------|-------------------|
