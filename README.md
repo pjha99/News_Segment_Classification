@@ -110,11 +110,11 @@ We will use precision to determine the model result.
 We can clearly see that model 2 2hich was created using Bidirectional RNN and LSTM outperformed the baseline model in terms of precision score.
 
 | Labels        | Model_1 Precision   | Model_2 Precision |
-| ------------- |---------------------|                   |
-| Sport         | 1                   |0.97             |
-| Business      | 2                   |                   |
-| Politics      | 3                   |                   |
-| Tech          | 4                   |                   |
-| Entertainement| 5                   |                   |
+| ------------- |---------------------|-------------------|
+| Sport         |0.53                 |0.93               |
+| Business      |0.32                 |0.88               |
+| Politics      |0.45                 |0.71               |
+| Tech          |0.42                 |0.89               |
+| Entertainement|0.14                 |0.89               |
 
 
