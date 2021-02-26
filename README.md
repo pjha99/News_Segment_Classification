@@ -105,4 +105,16 @@ Some of the Parameter that we will tune are: <br>
 - max trail =3
 - execution per trail =3
 
- 
+### Metrics
+We will use precision to determine the model result.
+We can clearly see that model 2 2hich was created using Bidirectional RNN and LSTM outperformed the baseline model in terms of precision score.
+
+| Labels        | Model_1 Precision   | Model_2 Precision |
+| ------------- |---------------------|                   |
+| Sport         | 1                   |0.97             |
+| Business      | 2                   |                   |
+| Politics      | 3                   |                   |
+| Tech          | 4                   |                   |
+| Entertainement| 5                   |                   |
+
+
