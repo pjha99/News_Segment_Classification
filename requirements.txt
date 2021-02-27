@@ -1,0 +1,8 @@
+tensorflow
+csv
+numpy 
+nltk
+pandas
+re
+kerastuner
+
