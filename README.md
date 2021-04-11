@@ -93,12 +93,12 @@ The Loss in Model2 is gradually decreasing with each epoch , while thats not the
 
 ### Hyperparameter tuning:
 We will use Keras tuner to tune Model 2<br>
-    - Method used :Random Search
+- Method used :Random Search <br>
 We will performe hyperparameter tuning of the Birectional RNN & LSTM with the help of keras tuner.<br>
 Some of the Parameter that we will tune are: <br>
-    - Embedding Layer
-    - LSTM Layer
-    - Hidden layers
+- Embedding Layer
+- LSTM Layer
+- Hidden layers
 ### Create a Keras Tuner Random search space
 
 - max trail =3
