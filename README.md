@@ -99,7 +99,6 @@ Some of the Parameter that we will tune are: <br>
     - Embedding Layer
     - LSTM Layer
     - Hidden layers
-    -
 ### Create a Keras Tuner Random search space
 
 - max trail =3
